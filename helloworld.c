@@ -2,7 +2,13 @@
 
 int main()
 {
-    printf("hello world");
+    int n;
+    scanf("%d",&n);
+    for (int i = 0; i < n; i++)
+    {
+        printf("hello world");  /* code */
+    }
+    
     getchar();
     return 0;
 }
